@@ -5,6 +5,8 @@ IRS guidelines require transactions for which the cost basis was **not** reporte
 
 This project can be used to convert the transactions into CSV format that can then be copied and written to a CSV file. The CSV file can then be a) imported into a tax program able to automatically generate Form 8949 (e.g. TaxAct), or b) imported into a spreadsheet to generate a statement as a substitute for Form 8949 that can be attached with Form 8453, or c) given to a tax professional that will know what to do with it.
 
+NOTE: Notes reported as "CHARGEOFF" are treated as worthless securities and the last day of the year is used as the sale date instead of the actual sale date reported in the PDF file.  More details: https://www.irs.gov/publications/p550
+
 ### Supported Tax Years
 - [2017]
 - [2018]
